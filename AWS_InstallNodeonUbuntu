@@ -1,0 +1,28 @@
+http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/
+Option 1: Install Node.js with Node Version Manager
+First, make sure you have a C++ compiler. Open the terminal and install the build-essential and libssl-dev packages if needed. By default, Ubuntu does not come with these tools — but they can be installed in the command line.
+
+Use apt-get to install the build-essential package:
+
+1
+sudo apt-get install build-essential checkinstall
+Employ a similar process to get libssl-dev:
+
+1
+sudo apt-get install libssl-dev
+You can install and update Node Version Manager, or nvm, by using cURL:
+
+1
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+You will be asked to close and reopen the terminal. To verify that nvm has been successfully installed after you reopen the terminal, use:
+
+1
+command -v nvm
+That command will output nvm if the installation worked.
+
+
+
+
+
+got NVM Github site  - https://github.com/creationix/nvm/blob/master/README.markdown
+nvm install node

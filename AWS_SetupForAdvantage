@@ -1,0 +1,26 @@
+1. Go to youtube - How to Setup Node and Express on Amazon Web Services EC2
+2. Open AWS Console - Chnage to Mumbai Region
+3. Create EC2
+    a. Ubuntu Free
+    b. Open SSh, HTTP, HTTPS, TCP/8080, TCP/9000
+    c. New Key pair called aniladveldercare30oct2016.pem
+4. SSH - Throws permissions wide Open
+    ssh -i aniladveldercare30oct2016.pem ubuntu@ec2-35-154-3-60.ap-south-1.compute.amazonaws.com
+5. Check permissions
+        tescos-MacBook-Air:aws tesco$ pwd
+        /Users/tesco/advantage/aws
+        tescos-MacBook-Air:aws tesco$ ls -l aniladveldercare30oct2016.pem
+        -rw-r--r--@ 1 tesco  staff  1692 Oct 30 17:16 aniladveldercare30oct2016.pem
+        tescos-MacBook-Air:aws tesco$
+6. Change Owner (if not set) and Change permissions
+    chmod :tesco aniladveldercare30oct2016.pem (not required as already set)
+    chmod 600 aniladveldercare30oct2016.pem
+
+7. SSH Again 
+    ssh -i aniladveldercare30oct2016.pem ubuntu@ec2-35-154-3-60.ap-south-1.compute.amazonaws.com
+    it works !!!
+
+8. Update OS
+    ubuntu@ip-172-31-17-210:~$ sudo apt-get update
+
+

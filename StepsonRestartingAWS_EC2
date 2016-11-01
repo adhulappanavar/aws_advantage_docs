@@ -1,0 +1,30 @@
+1. The EC2 now has elastic ip - 
+Instance ID     -- i-0ab22ea54e7a49eeb
+Public DNS      -- ec2-35-154-8-81.ap-south-1.compute.amazonaws.com
+Instance state  -- running
+Public IP       -- 35.154.8.81
+Instance type   -- t2.micro
+Elastic IPs     -- 35.154.8.81*
+
+2. Login to EC2 from a terminal 
+tescos-MacBook-Air:aws tesco$ ssh -i aniladveldercare30oct2016.pem ubuntu@ec2-35-154-8-81.ap-south-1.compute.amazonaws.com
+
+
+3. Move to Source Directory -- github/aws-advantage
+ubuntu@ip-172-31-17-210:~$
+ubuntu@ip-172-31-17-210:~$ cd github/aws-advantage/
+
+4. Use NPM to start 
+ubuntu@ip-172-31-17-210:~/github/aws-advantage$ npm run startclouddev
+
+> udemy-nodejs-angular2@1.0.0 startclouddev /home/ubuntu/github/aws-advantage
+> NODE_ENV=clouddev node ./bin/www
+
+mongodb://advantagedbadmin:advantage123@ds033015.mlab.com:33015/advantagedb prod_mongo_db
+
+5. Browse to http://ec2-35-154-8-81.ap-south-1.compute.amazonaws.com:9000 from any browser/machine in the world
+GET / 304 82.456 ms - -
+GET /js/jquery/3.1.0/jquery.min.js 304 3.578 ms - -
+GET /js/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js 304 2.194 ms - -
+GET /stylesheets/bootstrap/3.3.6/css/bootstrap.min.css 304 2.731 ms - -
+GET /stylesheets/style.css 304 0.227 ms - -

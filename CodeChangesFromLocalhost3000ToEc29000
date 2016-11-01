@@ -1,0 +1,53 @@
+1. Checkout the advantage code
+git clone https://github.com/adhulappanavar/advantage.git
+
+2. Delele the .git folder post that initialise Git again
+
+
+3. bin/WWW file port from 3000 to 9000
+
+
+4. Replace http://localhost to http://ec2-35-154-8-81.ap-south-1.compute.amazonaws.com
+  
+5. Change app.js to point to MongoLab instead of localhost
+  a. Uncomment the following lines
+                var cfg = require('./config');
+                console.log (cfg.mongo.uri, cfg.mongo.db);
+                mongoose.Promise = global.Promise;
+                mongoose.connect(cfg.mongo.uri);
+
+    b. Comment the following line
+                //mongoose.connect('localhost:27017/aniladvantagedb');
+
+
+5. NPM Install to create node_modules
+
+6. npm run gulp build-ts
+
+7. npm run startclouddev - will not work as localhost is removed
+
+8. Upload to github
+
+
+9. Download the code to EC2 machine
+
+10. Code changes due to Actualpatients (instead of actualpatients)
+
+    a. app.js
+    Error: Cannot find module './routes/Actualpatients'
+    at Object.<anonymous> (/home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:18:28)
+    change var actualpatientsRoutes = require('./routes/Actualpatients');
+    to actualpatients
+
+
+    b. Rename/Move routes/Actualpatients to routes/actualpatients
+
+    c. Rename models/Actualpatients.js to models/actualpatients.js
+    Error: Cannot find module '../models/actualpatients'
+    at Object.<anonymous> (/home/ubuntu/github/aws3-advantage/aws3-advantage/routes/actualpatients.js:5:22)
+    var Actualpatients = require('../models/actualpatients');
+
+
+
+
+
