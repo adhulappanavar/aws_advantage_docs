@@ -1,0 +1,56 @@
+"NODE_ENV=clouddev node ./bin/www"
+
+sudo forever-service install advanatageservice --envVars "NODE_ENV=clouddev" --script ./bin/www 
+
+
+Install new service
+
+$ forever-service install --help
+
+forever-service version 0.x.x
+
+
+  Usage: install [options] [service]
+
+  Options:
+
+    -h, --help                         output usage information
+    -s, --script [script]              Script to run as service e.g. app.js, defaults to app.js
+
+    -e --envVars [vars]                Environment Variables for the script
+                                       e.g. -e "PORT=80 ENV=prod FOO=bar"
+
+    -o --scriptOptions " [options]"    Command line options for the script
+
+    --minUptime [value]                Minimum uptime (millis) for a script to not be considered "spinning", default 5000
+
+    --spinSleepTime [value]            Time to wait (millis) between launches of a spinning script., default 2000
+
+    --noGracefulShutdown               Disable graceful shutdown
+
+    -t --forceKillWaitTime [waittime]  Time to wait in milliseconds before force killing; after failed graceful stop
+                                       defaults to 5000 ms, after which entire process tree is forcibly terminated
+
+    -f --foreverOptions " [options]"   Extra command line options for forever
+                                       e.g. -f " --watchDirectory /your/watch/directory -w -c /custom/cli" etc..
+                                       NOTE: a mandatory space is required after double quotes, if begining with -
+
+    --start                            Start service after provisioning
+
+    --nologrotate                      Do not generate logrotate script
+
+    --logrotateFrequency [frequency]   Frequency of logrotation
+                                       valid values are daily, weekly, monthly, "size 100k" etc, default daily
+
+    --logrotateMax [value]             Maximum logrotated files to retain, default 10 (logrotate parameter)
+
+    --logrotateDateExt                 Archive old versions of log files adding a daily extension like YYYYMMDD instead of simply adding a number
+
+    --logrotateCompress                Enable compression for logrotate
+
+    -p --foreverPath                   Path for forever cli e.g. /usr/local/bin,
+                                       by default forever cli is searched in system Path variable
+
+    -u --applyUlimits                  Apply increased ulimits in supported environment
+
+    -r --runAsUser [user]              *Experimental* Run service as a specific user, defaults to root (No ubuntu support yet)
