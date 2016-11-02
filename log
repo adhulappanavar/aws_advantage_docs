@@ -1,0 +1,131 @@
+ubuntu@ip-172-31-17-210:~/github/aws3-advantage$ cd aws3-advantage/
+ubuntu@ip-172-31-17-210:~/github/aws3-advantage/aws3-advantage$ npm run startclouddev
+
+> udemy-nodejs-angular2@1.0.0 startclouddev /home/ubuntu/github/aws3-advantage/aws3-advantage
+> NODE_ENV=clouddev node ./bin/www
+
+mongodb://advantagedbadmin:advantage123@ds033015.mlab.com:33015/advantagedb prod_mongo_db
+GET / 304 88.573 ms - -
+GET /stylesheets/style.css 304 3.550 ms - -
+GET /stylesheets/bootstrap/3.3.6/css/bootstrap.min.css 304 7.145 ms - -
+GET /js/jquery/3.1.0/jquery.min.js 304 5.972 ms - -
+GET /js/systemjs/0.19.24/system.js 304 3.148 ms - -
+GET /js/angular.js/2.0.0-beta.14/angular2-polyfills.min.js 304 3.738 ms - -
+GET /js/angular.js/2.0.0-beta.14/angular2.js 304 0.199 ms - -
+GET /js/rxjs@5.0.0-beta.2/bundles/Rx.js 304 5.010 ms - -
+GET /js/angular.js/2.0.0-beta.14/http.js 304 0.368 ms - -
+GET /js/angular.js/2.0.0-beta.14/router.js 304 0.232 ms - -
+GET /js/angular.js/es6/dev/src/testing/shims_for_IE.js 304 10.605 ms - -
+GET /js/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js 304 2.760 ms - -
+GET /js/app/bundle.js 304 1.064 ms - -
+GET /js/moment.js/2.14.1/moment.min.js 304 1.155 ms - -
+GET /html/print.css 404 3.732 ms - 2138
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/github/aws3-advantage/aws3-advantage/views"
+    at Function.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:101:7
+    at Layer.handle_error (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:80:3
+    at Layer.handle [as handle_request] (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:256:14)
+GET /stylesheets/print.css 304 0.293 ms - -
+GET /html/generateBill/generateBill.html 304 0.784 ms - -
+GET /html/actualpatients/actualpatients-list.component.css 304 0.892 ms - -
+GET /html/actualpatients/actualpatient-details.component.html 304 0.211 ms - -
+GET /favicon.ico 404 0.792 ms - 2138
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/github/aws3-advantage/aws3-advantage/views"
+    at Function.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:101:7
+    at Layer.handle_error (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:80:3
+    at Layer.handle [as handle_request] (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:256:14)
+GET /actualpatients 304 255.534 ms - -
+GET /med2patients 304 272.211 ms - -
+GET /html/actualmedicines/actualmedicines-list.component.css 200 4.099 ms - 338
+GET /html/actualmedicines/actualmedicine-details.component.html 200 1.662 ms - 1237
+GET /actualmedicines 304 235.599 ms - -
+GET /html/med2patients/med2patients.component.css 200 1.745 ms - 338
+GET /html/med2patients/med2patient-details.component.html 200 1.961 ms - 10960
+GET /med2patients 304 235.439 ms - -
+GET /med2patients 304 217.964 ms - -
+GET /med2patients 304 220.114 ms - -
+GET /med2patients 304 218.161 ms - -
+GET /med2patients 304 219.083 ms - -
+GET /stylesheets/bootstrap/3.3.6/fonts/glyphicons-halflings-regular.woff2 404 2.836 ms - 2138
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/github/aws3-advantage/aws3-advantage/views"
+    at Function.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:101:7
+    at Layer.handle_error (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:80:3
+    at Layer.handle [as handle_request] (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:256:14)
+GET /stylesheets/bootstrap/3.3.6/fonts/glyphicons-halflings-regular.woff 404 2.228 ms - 2138
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/github/aws3-advantage/aws3-advantage/views"
+    at Function.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:101:7
+    at Layer.handle_error (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:80:3
+    at Layer.handle [as handle_request] (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:256:14)
+GET /stylesheets/bootstrap/3.3.6/fonts/glyphicons-halflings-regular.ttf 404 0.640 ms - 2138
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/github/aws3-advantage/aws3-advantage/views"
+    at Function.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/response.js:961:7)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:101:7
+    at Layer.handle_error (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:310:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/app.js:80:3
+    at Layer.handle [as handle_request] (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/github/aws3-advantage/aws3-advantage/node_modules/express/lib/router/index.js:256:14)
+GET /med2patients/58173a6af0ff190dfd76367b 304 239.980 ms - -
+GET /med2patients 304 221.330 ms - -
+GET /med2patients/58173a6af0ff190dfd76367b 304 218.309 ms - -
+GET /images/advantagelogo.png 200 3.721 ms - 15829

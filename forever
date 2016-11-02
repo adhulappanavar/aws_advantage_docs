@@ -1,0 +1,8 @@
+
+$ npm install forever -g
+$ forever list
+$ cd github/aws3-advantage/aws3-advantage/
+$ NODE_ENV=clouddev forever start bin/www
+
+$ curl localhost:9000
+

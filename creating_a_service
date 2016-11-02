@@ -8,6 +8,9 @@ sudo wget https://raw.github.com/frdmn/service-daemons/master/ubuntu -O /etc/ini
 
 sudo wget https://raw.githubusercontent.com/adhulappanavar/aws_advantage_docs/master/creating_a_service -O /etc/init/advantage_service.conf
 
+
+sudo wget https://raw.githubusercontent.com/adhulappanavar/aws_advantage_docs/master/advatange_svc.conf -O /etc/init/advantage_service.conf
+
 author "anil"
 description "start and stop example for Ubuntu (upstart)"
 version "1.0"

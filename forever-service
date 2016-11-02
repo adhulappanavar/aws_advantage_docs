@@ -3,6 +3,9 @@
 sudo forever-service install advanatageservice --envVars "NODE_ENV=clouddev" --script ./bin/www 
 
 
+cd /home/ubuntu/github/aws3-advantage/aws3-advantage
+npm run startclouddev
+
 Install new service
 
 $ forever-service install --help
